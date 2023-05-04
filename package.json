@@ -1,0 +1,25 @@
+{
+  "name": "gatsby-todo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "gatsby-todo",
+  "author": "amartiniuc",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.8",
+    "@emotion/styled": "^11.10.8",
+    "gatsby": "^5.9.0",
+    "gatsby-plugin-emotion": "^8.9.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
