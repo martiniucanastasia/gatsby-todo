@@ -7,11 +7,13 @@ export const Section = ({ contentstackPage }) => {
 
   return (
     <section>
-      <h1>{url}</h1>
+      <h2>{`URL is - ${url}`}</h2>
       <div>
-        <img src={`${banner?.banner_image?.url}`} alt="banner" />
-        <h3>{banner?.banner_title}</h3>
-        <p>{banner?.banner_description}</p>
+        {banner?.banner_image?.url && (
+          <img src={`${banner?.banner_image?.url}`} alt="banner" />
+        )}
+        <h3>{`Title is - ${banner?.banner_title}`}</h3>
+        <p>{`Description is - ${banner?.banner_description}`}</p>
       </div>
     </section>
   );

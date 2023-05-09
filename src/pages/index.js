@@ -3,7 +3,7 @@ import { Layout } from "../components/Layout/layout";
 import Seo from "../components/Seo/seo";
 
 const IndexPage = () => {
-  return <Layout></Layout>;
+  return <Layout />;
 };
 
 export const Head = () => <Seo title="Home Page" />;
