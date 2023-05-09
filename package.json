@@ -19,6 +19,9 @@
     "@emotion/css": "^11.11.0",
     "@emotion/react": "^11.10.8",
     "@emotion/styled": "^11.10.8",
+    "@mui/material": "^5.12.3",
+    "@mui/styled-engine-sc": "^5.12.0",
+    "chromatic": "^6.17.4",
     "gatsby": "^5.9.0",
     "gatsby-plugin-emotion": "^8.9.0",
     "gatsby-plugin-image": "^3.9.0",
@@ -27,6 +30,8 @@
     "gatsby-source-filesystem": "^5.9.0",
     "gatsby-transformer-sharp": "^5.9.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.10",
+    "styled-components": "^5.3.10"
   }
 }

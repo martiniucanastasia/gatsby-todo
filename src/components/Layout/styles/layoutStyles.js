@@ -1,10 +1,6 @@
 import styled from "@emotion/styled";
 import { Link } from "gatsby";
 
-export const Article = styled.article`
-  color: green;
-`;
-
 export const LayoutStyles = {
   Navbar: styled.nav`
     display: flex;
@@ -20,5 +16,8 @@ export const LayoutStyles = {
   `,
   InfoBox: styled.div`
     background-color: gray;
+    > article {
+      color: red;
+    }
   `,
 };
